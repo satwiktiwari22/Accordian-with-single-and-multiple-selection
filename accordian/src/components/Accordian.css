@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.part {
+    width: 300px;
+    padding: 10px;
+    margin: 1px;
+    border: 1px groove #000;
+    border-radius: 5px;
+    background-color: #e2e2e2;
+    color: #000;
+    font-size: 1.2em;
+    text-align: center;
+    transition: all 0.5s;
+}
