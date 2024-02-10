@@ -1,0 +1,37 @@
+.TreeView-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #f4f4f4;
+    height: 100vh;
+    width: 100%;
+    font-size: 20px;
+
+}
+
+.menu-container {
+    background-color: rgb(159, 255, 255);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 350px;
+}
+
+.Item-Container {
+    list-style: none;
+    padding: 10px;
+}
+
+.Item-Container:hover {
+    cursor: pointer;
+}
+
+.Item-Container p {
+    display: inline;
+    margin: 8px;
+}
+
+.Item-Container li {
+    margin: 8px;
+}
